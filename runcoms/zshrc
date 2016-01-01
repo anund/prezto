@@ -16,3 +16,7 @@ fi
 bindkey -M viins 'jj' vi-cmd-mode
 
 alias vi=vim
+
+# exports
+export SSH_ASKPASS=/usr/lib/ssh/x11-ssh-askpass
+
