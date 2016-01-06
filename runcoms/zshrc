@@ -20,3 +20,14 @@ alias vi=vim
 # exports
 export SSH_ASKPASS=/usr/lib/ssh/x11-ssh-askpass
 
+# ssh agent
+alias sshadd="ssh-add ~/.ssh/id_rsa"
+
+# PYTHON
+export WORKON_HOME=~/.virtualenvs
+
+# allow HEAD^ to be used in git
+unsetopt nomatch
+
+# vpn
+alias vpn="sudo openconnect --user=amckague https://vpn.atlassian.com"
