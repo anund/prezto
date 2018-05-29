@@ -10,4 +10,4 @@ if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; t
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
-export GHC_PACKAGE_PATH=/opt/sandbox/xmonad/x86_64-linux-ghc-7.10.3-packages.conf.d:
+export GO_PATH=~/go

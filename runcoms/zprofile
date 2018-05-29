@@ -18,7 +18,10 @@ fi
 #
 
 export EDITOR='vim'
+export SYSTEMD_EDITOR='vim'
 export VISUAL='vim'
+export FCEDIT='vim'
+export SUDO_EDITOR='vim'
 export PAGER='less'
 
 #
@@ -43,8 +46,10 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  ~/.sandbox/cabal/xmonad/bin
+  /home/anund/external_packages/haskell/bin
+  /home/anund/external_packages/x/.cabal-sandbox/bin
   /usr/local/{bin,sbin}
+  /home/anund/go/bin
   $path
 )
 

@@ -19,6 +19,8 @@ alias vi=vim
 
 # exports
 export SSH_ASKPASS=/usr/lib/ssh/x11-ssh-askpass
+export GDK_SCALE=2
+export GDK_DPI_SCALE=1
 
 # ssh agent
 alias sshadd="ssh-add ~/.ssh/id_rsa"
@@ -29,5 +31,9 @@ export WORKON_HOME=~/.virtualenvs
 # allow HEAD^ to be used in git
 unsetopt nomatch
 
-# vpn
-alias vpn="sudo openconnect --user=amckague https://vpn.atlassian.com"
+# task
+alias task="vim ~/task"
+
+# rename
+alias cbz="perl-rename -i 's/\.zip$/\.cbz/' *.zip"
+alias cbr="perl-rename -i 's/\.rar$/\.cbr/' *.rar"
